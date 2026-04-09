@@ -11,11 +11,8 @@ A modern number guessing game built using HTML, CSS, and JavaScript.
 - Best score using LocalStorage
 - Dark / Light mode UI
 
-## 📸 Preview
-(Add your screenshot here)
-
 ## 🔗 Live Demo
-(Add your Netlify link after deploying)
+
 
 ## 🛠 Tech Stack
 - HTML
@@ -29,4 +26,4 @@ Completed as part of **Prodigy InfoTech Software Development Internship**
 
 **Nireeksha**
 Computer Science Engineering Student
-Aspiring Full Stack Developer
+Aspiring Software Developer
