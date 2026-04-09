@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Guessing Game | Nireeksha</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="dark">
+    <div class="container">
+      <div class="toggle" onclick="toggleMode()">🌙</div>
+
+      <h2>🎯 Guess the Number</h2>
+      <p>Pick a number between 1–100</p>
+
+      <select id="difficulty" onchange="setDifficulty()">
+        <option value="100">Easy (1-100)</option>
+        <option value="50">Medium (1-50)</option>
+        <option value="20">Hard (1-20)</option>
+      </select>
+
+      <input type="number" id="guessInput" placeholder="Enter your guess" />
+
+      <button onclick="checkGuess()">Guess</button>
+      <button onclick="restartGame()">Restart</button>
+
+      <p id="feedback"></p>
+      <p id="attempts"></p>
+      <p id="timer"></p>
+      <p id="bestScore"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
