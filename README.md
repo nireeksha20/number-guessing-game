@@ -12,7 +12,7 @@ A modern number guessing game built using HTML, CSS, and JavaScript.
 - Dark / Light mode UI
 
 ## 🔗 Live Demo
-
+https://nireeksha-guessing-name.netlify.app/
 
 ## 🛠 Tech Stack
 - HTML
